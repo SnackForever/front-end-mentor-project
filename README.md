@@ -91,5 +91,3 @@ This challenge is completely free. Please share it with anyone who will find it 
 
 **Have fun building!** 🚀
 =======
-test
->>>>>>> e94115b72d650bc44416c9034edda37112ab94c3
