@@ -74,27 +74,29 @@ h1{
 .description{
     font-family: 'Montserrat', sans-serif;
     color: var(--paragraphe-color);
-    width: 85%;
+    width: 100%;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 13px;
 }
 .prices{
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    justify-content: flex-end;
 }
 
 .price{
-    font-size: 16px;
+    font-size: 12px;
     text-decoration: line-through;
-    color: var(--paragraphe-color)
+    color: var(--paragraphe-color);
+    margin-left: 8%;
 }
 
 .price-update{
-    font-size: 36px;
+    font-size: 34px;
     font-family: 'Fraunces', sans-serif;
-    color: var(--price-and-cart-color)
+    color: var(--price-and-cart-color);
 }
 
 button{
@@ -120,13 +122,13 @@ button img{
     margin-right: 7px;
 }
 
-@media only screen and (min-widht: 641px){
+@media only screen and (min-width: 641px){
     .card{
         min-width: 600px;
     }
 }
 
-@media only screen and (max-widht: 647px){
+@media only screen and (max-width: 647px){
     .card{
         min-width: auto;
         width: 90%;
@@ -137,9 +139,9 @@ button img{
 
     .left{
         width: 100%;
-        height: 350px;
+        height: 300px;
         background-image: url(/images/image-product-mobile.jpg);
-        border-radius: 0 0 10px 10px;
+        border-radius: 10px 10px 0 0;
     }
 
     .right{
@@ -163,11 +165,7 @@ button img{
         width: 95%;
         margin-top: 10px;
         margin-bottom: 15px;
-        line-height: 1.7px;
+        line-height: 20px;
         font-size: 12px;
-    }
-
-    button{
-        margin: 10px;
     }
 }
